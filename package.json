@@ -1,0 +1,14 @@
+{
+  "name": "bundle-name-collide",
+  "source": [
+    "src/a.js",
+    "src/b.js"
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "(rm -rf .parcel-cache dist 2>&1 >/dev/null) && parcel build"
+  },
+  "devDependencies": {
+    "parcel": "2.9.3"
+  }
+}
